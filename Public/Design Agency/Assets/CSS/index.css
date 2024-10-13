@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-div{
+    display: flex;  
+    min-height: 95vh;
+   
+
+}
+
+.logo{
+ width: 300px;
+ height: 50px;
+ object-fit: contain;
+ margin-top: 50px;
+}
+.Creative{
+    color: blue;
+}
+
+h1{
+    font-size: 4rem;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.left-container{
+    flex: 1;
+    display: flex;
+    margin-top: 60px;
+}
+.right-container{
+    flex: 1;
+    display: flex;
+    margin-top: 60px;
+    
+
+}
+.p-text,p{
+    font-size: 1em;
+}
+
+img{
+    height: 10rem;
+    margin-left: 20px;
+    
+}
+.p-text{
+    margin-left: 30px;
+
+}
+.right-container{
+    display: flex;
+}
+@media(max-width: 680px){
+    .main-div{
+        display: block;
+        text-align: center;
+        
+    }
+    .left-container, .right-container{
+        display: block;
+        margin-top: 20px;
+             
+     }
+    
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        color: red;
+    }
+    img{
+        height: 200px;
+        width: 400px;
+        margin-left: 30px;
+        margin-top: 10px;
+    
+
+    }
+     .logo{
+        width: 100px;
+        height: 20px;
+        align-content: center;
+     }
+
+ 
+}
+@media(max-width: 1200px){
+    .main-div{
+        text-align: center;
+    }
+    h1{
+        margin-left: 60px;
+    }
+    .logo{
+        margin-left: 60px;
+
+    }
+    .left-container, .right-container{
+        display: block;
+        margin-top: 20px;
+             
+     }
+     img{
+        height: 220px;
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 10px;
+}   
+}
