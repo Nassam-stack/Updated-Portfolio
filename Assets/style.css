@@ -5,15 +5,20 @@
     padding: 0;
 }
 body{
-    background-color: rgb(64, 64, 158);
+    background-color: #808080;
     overflow-x: hidden;
 }
 
-h1{
+h1{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
     font-size: 1rem;
 }
+nav ul li{
+    margin: 15px 0px;
+}
 nav ul li a{
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
     text-decoration: none;
     padding: 12px;
     color: black;
@@ -22,7 +27,9 @@ nav ul li a:hover{
     color: brown;
     text-decoration: underline;
 }
-h3{ font-family: cursive;
+h3{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
     margin: 10px;
     
 
@@ -43,23 +50,26 @@ hr{
 
 h2,h4, p{
     margin: 2% 3%;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
 }
 
 footer{
     margin-top: 5px;
     width: 100%;
     height: 7vh;
-    background-color: rgb(32, 32, 56);
+    background-color: rgb(29, 26, 26);
 }
 .text{
     margin: 25px;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
     
 }
 .list li{
     margin: 2px 50px;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
 }
 
 footer{
@@ -67,7 +77,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
     
 }
 .flame{
@@ -86,7 +97,8 @@ img:hover{
 }
 h6{
   font-size: 1rem;
-  font-family: cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+  'Trebuchet MS', sans-serif;
 }
 
 @media(min-width: 768px) and (max-width: 1200px){
@@ -111,15 +123,18 @@ h6{
 }
 h2{
     font-size: 3rem;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
  }
  h4{
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
  }
  p{
     font-size: 1rem;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
  }
 
 }
@@ -139,24 +154,27 @@ h2{
      }
      h2{
         font-size: 5rem;
-        font-family: cursive;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+        'Trebuchet MS', sans-serif;
      }
      h4{
         font-size: 2rem;
-        font-family: cursive;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+        'Trebuchet MS', sans-serif;
         
      }
 
      p{
         font-size: 1.5rem;
-        font-family: cursive;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+        'Trebuchet MS', sans-serif;
      }
 }
 @media(min-width: 768px) and (max-width: 1800px){
     nav{
         width: 100%;
         height: 12vh;
-        background-color: rgb(138, 63, 63);
+        background-color: #2E4053;
         
     }
     nav ul{
@@ -169,8 +187,12 @@ h2{
         margin-top: 7px;
         
     }
-    nav ul li a:hover{
+    nav ul li a{
         color: white;
+        font-size: 1.2rem;
+    }
+    nav ul li a:hover{
+        color: goldenrod;
         text-decoration: underline;
 
     }
@@ -180,6 +202,7 @@ h2{
         position: relative;
         top: 20px;
         left: 10px;
+        color: white;
     }
 }
 
