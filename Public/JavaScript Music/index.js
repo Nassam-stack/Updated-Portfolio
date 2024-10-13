@@ -28,5 +28,5 @@ document.querySelectorAll(".item")[i].addEventListener("click", function(){
 }
 
 const currentYear = new Date().getFullYear()
-document.querySelector("footer").innerHTML = "copyright " + currentYear;
+document.querySelector("footer").innerHTML = "copyright © " + currentYear;
 
