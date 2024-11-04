@@ -1,2 +1,2 @@
-const currenYear = new Date().getFullYear()
-document.querySelector(".foot").innerHTML = "Copyright © " + currenYear
+const currentYear = new Date().getFullYear();
+document.querySelector(".foot").innerHTML = "Copyright © " + currentYear
