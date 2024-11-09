@@ -13,13 +13,13 @@ for (var i = 0; i < numberOfButtons; i++) {
         var audio2 = new Audio("./sound/tom-2.mp3");
         audio2.play();
         document.querySelector("h1").innerHTML =
-          "Thanks for listening to the sound hope you enjoyed! 😘";
+          "I'm sure you enjoyed the sound! 😘";
         break;
       case "Snare mp3":
         var audio3 = new Audio("./sound/snare.mp3");
         audio3.play();
         document.querySelector("h1").innerHTML =
-          "Thanks you just enjoyed that sound! 😊";
+          "Wow this sound was really fan to listen to! 😊";
         break;
       case "Crash mp3":
         var audio4 = new Audio("./sound/crash.mp3");

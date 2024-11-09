@@ -11,6 +11,7 @@ h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
 }
+
 nav ul li {
   margin: 15px 0px;
 }
@@ -56,7 +57,7 @@ footer {
   margin: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.list li {
+.list > * {
   margin: 2px 50px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
