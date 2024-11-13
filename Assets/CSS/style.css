@@ -46,7 +46,9 @@ p {
   margin: 2% 3%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+h2 {
+  font-size: 25px;
+}
 footer {
   margin-top: 30px;
   width: 100%;

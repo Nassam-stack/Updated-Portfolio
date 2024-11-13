@@ -26,6 +26,7 @@ for (var i = 0; i < numberOfButtons; i++) {
         audio4.play();
         document.querySelector("h1").innerHTML = "You are amazing my gee! ❤️💪";
       default:
+        console.log(this.innerHTML);
     }
   });
 }
