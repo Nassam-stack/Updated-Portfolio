@@ -29,6 +29,10 @@
         sans-serif;
       margin: 0 40px;
     }
+    .heading {
+      box-shadow: 0 2px 5px #ccc;
+    }
+
     @media (max-width: 808px) {
       h2 {
         font-size: 20px;
@@ -41,6 +45,16 @@
       .item {
         box-shadow: 0 2px 5px #ccc;
       }
+      .heading,
+      p {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 5px 5px;
+        text-transform: uppercase;
+        color: brown;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
     }
     @media (min-width: 808px) {
       .main {
@@ -48,8 +62,24 @@
         margin: 40px auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr;
         gap: 30px;
+      }
+      .heading {
+        box-shadow: 0 2px 5px #ccc;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      .heading,
+      p {
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: brown;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
       }
       .image1 {
         margin: 37px 65px;
@@ -62,6 +92,9 @@
   </style>
   <body>
     <div class="main">
+      <div class="heading">
+        <p>Below are the detailed Description of my four projects ❤️</p>
+      </div>
       <div class="container1 item">
         <h2>Project 1: JavaScript Drum Sound</h2>
         <ul>
