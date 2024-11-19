@@ -18,6 +18,10 @@ h1 {
   font-size: 25px;
   color: rgb(7, 7, 240);
 }
+hr {
+  border: none;
+  border-top: 2px solid bisque;
+}
 input {
   padding: 15px 30px;
   font-size: 20px;
@@ -43,11 +47,12 @@ div {
 #answer {
   color: red;
 }
-.my-div {
+.message {
+  border-radius: 15px;
   width: 302px;
-  height: 140px;
+  height: 160px;
   background-color: goldenrod;
-  border: 3px solid black;
+  border: 3px solid white;
 }
 h3 {
   padding: 3px 10px;
