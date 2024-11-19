@@ -3,7 +3,10 @@
   margin: 0;
 }
 body {
-  background-color: grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./Images/BMI.avif);
+  background-position: center;
+  background-size: contain;
 }
 .main {
   width: 90%;
@@ -11,8 +14,9 @@ body {
   margin: 20px auto;
 }
 h1 {
+  font-weight: bolder;
   font-size: 25px;
-  color: brown;
+  color: rgb(7, 7, 240);
 }
 input {
   padding: 15px 30px;
@@ -20,9 +24,9 @@ input {
   border: 3px solid blue;
 }
 button {
+  border: 3px solid white;
   padding: 18px 10px;
-  border-radius: 25px;
-  border: none;
+  border-radius: 30px;
   background-color: rgb(20, 20, 104);
   color: white;
   font-size: 15px;
@@ -31,20 +35,31 @@ button {
 button:hover {
   background-color: green;
   color: black;
+  border: 3px solid brown;
 }
 div {
   margin: 50px 0px;
 }
 #answer {
-  color: black;
+  color: red;
 }
 .my-div {
   width: 302px;
-  height: 120px;
+  height: 140px;
   background-color: goldenrod;
   border: 3px solid black;
 }
 h3 {
   padding: 3px 10px;
   font-family: "Times New Roman", Times, serif;
+}
+@media (max-width: 768px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-size: 100% 100%;
+  }
 }

@@ -18,8 +18,8 @@ function Interpretation(bmi) {
   } else if (bmi < 25) {
     return "congratulations your BMI is normal, maintain a healthy lifestyle";
   } else if (bmi < 30) {
-    return "Overweight";
+    return "You are overweight Consult a doctor or registered dietitian to create a weight loss plan. Reduce calorie intake. Focus on whole, unprocessed foods, increase physical activity";
   } else if (bmi > 30) {
-    return "Obese";
+    return "You are obese, consult a doctor or registered dietitian to create a comprehensive weight loss plan.Gradually reduce calorie intake. Aim for 500-1000 calorie deficit/day, increase physical activity";
   }
 }
