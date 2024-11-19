@@ -42,7 +42,7 @@ button:hover {
   border: 3px solid brown;
 }
 div {
-  margin: 50px 0px;
+  margin: 45px 0px;
 }
 #answer {
   color: red;
@@ -50,7 +50,7 @@ div {
 .message {
   border-radius: 15px;
   width: 302px;
-  height: 160px;
+  height: 180px;
   background-color: goldenrod;
   border: 3px solid white;
 }
